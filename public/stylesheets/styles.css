@@ -41,7 +41,7 @@ html, body {
 }
 /* Slide 3 goes to the bottom right */
 #slide-3 {
-    background: url('../images/slide3.jpg') no-repeat center center;
+    background: url('../images/slide5.jpg') no-repeat center center;
     background-size: 2048px 1365px;
     -webkit-transform: translate(100%,100%);
     -ms-transform: translate(100%,100%);
@@ -115,4 +115,13 @@ p { line-height: 1.333em; }
 }
 .yellow {
     background-color: yellow;
+}
+
+.section-1 {
+	padding: 20px;
+	background-color: black;
+}
+
+.section-1 h2,p {
+	color: white !important;
 }
