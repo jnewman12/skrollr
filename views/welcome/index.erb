@@ -6,12 +6,48 @@
 	</title>
 	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Skrollr.js</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Something</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Something</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Something</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 <!-- main container, will hold all 6 slides -->
 <div id="slides-container">
-		<div id="slides"
+	<div id="slides"
 		    data-0="transform:translate(0%,0%);"
 		    data-150p="transform:translate(0%,-50%);"
 		    
@@ -22,7 +58,7 @@
         	<div class="caption"
 			    data-40p="opacity: 1; transform:translate(0px,0px);"
 			    data-70p="opacity: 0; transform:translate(0px,-100%);"
-			    data-anchor-target="#helper">
+			    data-anchor-target="#slide-1">
 			    <h1>Image 1 Title</h1>
 			    <p>Image description goes here.</p>
             </div>
@@ -35,7 +71,7 @@
 			    data-250p=""
 			    data-280p="opacity: 0; transform:translate(-100px,0px);"
 			    data-anchor-target="#helper">
-      <h1>Image 1 Title</h1>
+                <h1>Image 1 Title</h1>
 			    <p>Image description goes here.</p>
             </div>
         </div>
@@ -76,7 +112,8 @@
 <script type="text/javascript">
     var s = skrollr.init();
 </script>	
-</script>
+
 </body>
 </html>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="javascripts/main.js"></script>
