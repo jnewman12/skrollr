@@ -127,7 +127,6 @@ html, body {
 #slide-1 {
     background: url('../images/slide6.jpg');
     background-size: 2048px 1365px;
-    padding: 50px;
 }
 #slide-2 {
     /*background: url('../images/slide2.jpg') no-repeat center center;*/
@@ -135,10 +134,11 @@ html, body {
     -webkit-transform: translate(0,100%);
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
+    padding: 100px;
 }
 /* Slide 3 goes to the bottom right */
 #slide-3 {
-    background: url('../images/slide5.jpg') no-repeat center center;
+    background: url('../images/bg.jpg');
     background-size: 2048px 1365px;
     -webkit-transform: translate(100%,100%);
     -ms-transform: translate(100%,100%);
@@ -165,7 +165,7 @@ html, body {
 	position: absolute;
 	font-size: 25px;
 	color: white;
-	padding: 100px;
+	padding: 60px;
 }
 
 .welcome {
