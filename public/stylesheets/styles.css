@@ -8,7 +8,7 @@ html, body {
 /* navbar */
 .navbar-default {
     border-color: transparent;
-    background-color: purple;
+    background-color: #222;
 }
 
 .navbar-default .navbar-brand {
@@ -97,6 +97,7 @@ html, body {
         font-size: 1.5em;
     }
 }
+
  
 /* full width/height container */
 #slides-container {
@@ -124,11 +125,12 @@ html, body {
 
 /* slide cover sizes are for a good size for the image. background-size:cover; was not doing it */
 #slide-1 {
-    background: url('../images/slide1.jpg') no-repeat center center;
+    background: url('../images/slide6.jpg');
     background-size: 2048px 1365px;
+    padding: 50px;
 }
 #slide-2 {
-    background: url('../images/slide2.jpg') no-repeat center center;
+    /*background: url('../images/slide2.jpg') no-repeat center center;*/
     background-size: 2048px 1365px;
     -webkit-transform: translate(0,100%);
     -ms-transform: translate(0,100%);
@@ -151,9 +153,6 @@ html, body {
     transform: translate(100%,0%);
 }
 
-/* slides 5 & 6 will be added */
-
-
 .caption {
     position: absolute;
     bottom: 5%;
@@ -161,12 +160,38 @@ html, body {
     text-align: right;
 }
 
-.caption p, h1{
-	color: black !important;
+.caption-main {
+	text-align: center !important;
+	position: absolute;
+	font-size: 25px;
+	color: white;
+	padding: 100px;
 }
+
+.welcome {
+  	text-align: center;
+	display: block;
+}
+
+.welcome h1 {
+	color: white;
+	font-size: 45px;
+}
+
+/* slides 5 & 6 will be added */
+
+
+
+.services {
+	padding: 30px;
+	font-size: 18px;
+}
+
 p, h1 { margin: 0; }
 h1 { margin-bottom: 0.2em; }
 p { line-height: 1.333em; }
+
+
 
 #slide-3 .caption {
     left: 5%;
@@ -181,15 +206,7 @@ p { line-height: 1.333em; }
     bottom: auto;
     color: #47373f;
 }
-
-
-/*#helper {
-    position:absolute;
-    left:0;
-    top: 0;
-    height:600%;
-    width: 20px;
-} */
+/*
 
 #helper {
     width: 0;
@@ -198,27 +215,4 @@ p { line-height: 1.333em; }
 .marker {
     height: 25%;
     width: 100%;
-}
-/*
-.red {
-    background-color: red;
-}
-.green {
-    background-color: green;
-}
-.blue {
-    background-color: blue;
-}
-.yellow {
-    background-color: yellow;
-} 
-
-.section-1 {
-	padding: 20px;
-	background-color: black;
-}
-
-.section-1 h2,p {
-	color: white !important;
-}
-*/
+} */

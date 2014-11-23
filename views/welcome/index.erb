@@ -4,16 +4,28 @@
 	<title>
 		Skrollr.Js Example
 	</title>
+	<meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width, user-scalable=0" name=
+    "viewport">
+    <meta content=
+    "Skrollr.js is a cool way to simulate 3D animations, transitions, and effects."
+    name="description">
 	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+
+	<!--[if lt IE 9]>
+        <script src='javascripts/html5shiv.min.js'></script>
+        <script src='javascripts/respond.min.js'></script>
+    <![endif]-->
 </head>
 
 <body>
-    <!-- Navigation -->
+    <!-- Navigation 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -23,8 +35,6 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Skrollr.js</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -41,38 +51,91 @@
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+    </nav> -->
+  
 <!-- main container, will hold all 6 slides -->
-<div id="slides-container">
+<div id="slides-container">      
 	<div id="slides"
 		    data-0="transform:translate(0%,0%);"
+		    data-50p=""
 		    data-150p="transform:translate(0%,-50%);"
-		    
+		    data-200p=""
 		    data-300p="transform:translate(-50%,-50%);"
-		   
+		    data-350p=""
 		    data-450p="transform:translate(-50%,0%);">
         <div id="slide-1" class="slide">
-        	<div class="caption"
+        	<div class="caption-main"
+        	    data-10p="opacity: 0; transform:translate(0px,0px);"
 			    data-40p="opacity: 1; transform:translate(0px,0px);"
-			    data-70p="opacity: 0; transform:translate(0px,-100%);"
+			    data-80p="opacity: 0; transform:translate(0px,-100%);"
 			    data-anchor-target="#slide-1">
-			    <h1>Image 1 Title</h1>
-			    <p>Image description goes here.</p>
+			  <div class="intro">  
+			    <div class="container">
+			      <div class="row">
+			        <div class="col-md-12">
+					    <h1>An Example</h1>
+					    <p>A simple site for <a href="https://github.com/Prinzhorn/skrollr" target="_blank">Skrollr.js</a>. 
+					    All Images are courtesy of Pixden, Unsplash, and Google. 
+					    </p>
+					</div>
+					</div>
+				</div>	
+			  </div>	    
             </div>
 
         </div>
         <div id="slide-2" class="slide">
-            <div class="caption"
-			    data-130p="opacity: 0; transform:translate(0px,-200%);"
-			    data-180p="opacity: 1; transform:translate(0px,0px);"
-			    data-250p=""
-			    data-280p="opacity: 0; transform:translate(-100px,0px);"
-			    data-anchor-target="#helper">
-                <h1>Image 1 Title</h1>
-			    <p>Image description goes here.</p>
+            <div class="caption-1-test"
+             data-150p="opacity:0; transform:translate(0px,0px);"
+             data-180p="opacity:1; transform:translate(0px,0px);"
+             data-anchor-target="#slide-2">
+            </div>
+            <div class="container wow">
+            	<div class="row text-center">
+            	  <div class="col-md-4">
+            	        <div class="services-info-text">
+				         <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+				         </span>
+				          <h2 class="services-heading">Project Management 1</h2>
+				          <p class="services-text">Every sale will be supervised by one of our highly experienced website developers.</p>
+                        </div>
+
+                         <div class="services-info-text">
+				         <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+				         </span>
+				          <h2 class="services-heading">Project Management 2</h2>
+				          <p class="services-text">Every sale will be supervised by one of our highly experienced website developers.</p>
+                        </div>
+            	  </div>
+            	  <div class="col-md-4">
+            		<figure class="image-features wow bounceIn animated animated" data-wow-offset="120" data-wow-duration="1.5s">
+					  <img src="images/iphone5_white.png" alt="iphone">
+				    </figure>
+            	  </div>
+            	  <div class="col-md-4"> 
+            	     <div class="services-info-text">
+				         <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+				         </span>
+				          <h2 class="services-heading">Project Management 1</h2>
+				          <p class="services-text">Every sale will be supervised by one of our highly experienced website developers.</p>
+                        </div>
+                         <div class="services-info-text">
+				         <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+				         </span>
+				          <h2 class="services-heading">Project Management 2</h2>
+				          <p class="services-text">Every sale will be supervised by one of our highly experienced website developers.</p>
+                        </div>
+            	  </div>
+            	</div>
             </div>
         </div>
         <div id="slide-3" class="slide">
@@ -116,4 +179,8 @@
 </body>
 </html>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.2/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
 <script src="javascripts/main.js"></script>
