@@ -1,4 +1,4 @@
 skrollr
 =======
 
-Site showing off Skrollr.js. 
+Site using Skrollrjs. 
