@@ -209,11 +209,10 @@
 
 <script src="javascripts/skrollr.min.js"></script>
 <script type="text/javascript">
-    var s = skrollr.init({
-    	 mobileCheck: function() {
-                return false;
-            }
-    });
+    var s = skrollr.init();
+		if (s.isMobile()) {
+		    s.destroy();
+       }
 </script>	
 
 </body>
