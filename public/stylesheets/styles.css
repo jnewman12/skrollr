@@ -5,7 +5,11 @@ html, body {
     height:100%;
 }
 
-/* navbar */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar 
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -96,6 +100,23 @@ html, body {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+} */
+
+#slide-1.intro {
+	/*display: table;*/
+}
+
+.welcome-text {
+	font-family: 'Lobster', cursive;
+	font-size: 75px;
+	padding: 20px;
+	text-align: center;
+}
+
+.services-text p {
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
 }
 
  
@@ -206,13 +227,3 @@ p { line-height: 1.333em; }
     bottom: auto;
     color: #47373f;
 }
-/*
-
-#helper {
-    width: 0;
-}
-
-.marker {
-    height: 25%;
-    width: 100%;
-} */
