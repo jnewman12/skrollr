@@ -6,104 +6,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
-}
-
-/* navbar 
-.navbar-default {
-    border-color: transparent;
-    background-color: #222;
-}
-
-.navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-    color: #fec503;
-}
-
-.navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
-}
-
-.navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
-}
-
-.navbar-default .nav li a {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #fff;
-}
-
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
-    outline: 0;
-    color: #fed136;
-}
-
-.navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #fed136;
-}
-
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #fec503;
-}
-
-@media(min-width:768px) {
-    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-} */
-
-#slide-1.intro {
-	/*display: table;*/
+	font-family: 'Montserrat', sans-serif !important;
 }
 
 .welcome-text {
@@ -114,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .services-text p {
-	font-size: 18px;
+	font-size: 20px;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 }
@@ -146,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* slide cover sizes are for a good size for the image. background-size:cover; was not doing it */
 #slide-1 {
-    background: url('../images/slide6.jpg');
+    background: url('../images/slide5.jpg');
     background-size: 2048px 1365px;
 }
 #slide-2 {
@@ -167,11 +70,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Slide 4 goes to the top right */
 #slide-4 {
-    background: url('../images/slide4.jpg') no-repeat center center;
+    /*background: url('../images/slide4.jpg') no-repeat center center;*/
     background-size: 2048px 1365px;
     -webkit-transform: translate(100%,0%);
     -ms-transform: translate(100%,0%);
     transform: translate(100%,0%);
+    background-color: white;
+}
+
+#slide-5 {
+	background-size: 2048px 1365px;
+	background-color: purple;
 }
 
 .caption {
@@ -212,18 +121,57 @@ p, h1 { margin: 0; }
 h1 { margin-bottom: 0.2em; }
 p { line-height: 1.333em; }
 
+hr.light, hr.dark {
+    max-width: 25px;
+    margin: 10px auto;
+    border-bottom: 0;
+    border: 5px solid;
 
-
-#slide-3 .caption {
-    left: 5%;
-    right: auto;
-    color: #47373f;
 }
- 
-#slide-4 .caption {
-    right: auto;
-    left: 5%;
-    top: 5%;
-    bottom: auto;
-    color: #47373f;
+
+hr.primary {
+	max-width: 75px;
+	border-top: none;
+	height: 3px !important;
+	border-bottom: 2px solid white;
+}
+
+.slide-3-text, .slide-4-text {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: grey;
+}
+
+.first-intro {
+	padding: 25px;
+	color: black;
+}
+
+.transition {
+	margin: 15px !important;
+	margin-right: 30px;
+	padding: 15px;
+}
+
+.service-list-col1.fa-circle {
+	color: purple;
+}
+
+.btn-xl {
+    padding: 20px;
+    text-decoration: none !important;
+    border: 2px solid purple;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: black !important;
+    background-color: white;
+}
+
+.btn-xl:hover {
+	background-color: #8B1C62;
+	color: white;
 }

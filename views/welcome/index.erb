@@ -23,62 +23,33 @@
 </head>
 
 <body>
-    <!-- Navigation 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Skrollr.js</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">Something</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">Something</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">Something</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
-  
-<!-- main container, will hold all 6 slides -->
+
 <div id="slides-container">      
 	<div id="slides"
 		    data-0="transform:translate(0%,0%);"
 		    data-50p=""
-		    data-100p=""
 		    data-200p="transform:translate(0%,-50%);"
 		    data-250p=""
 		    data-350p="transform:translate(-50%,-50%);"
 		    data-400p=""
 		    data-500p="transform:translate(-50%,0%);">
+		 
         <div id="slide-1" class="slide">
         	<div class="caption-main"
-        	    data-10p="opacity: 0; transform:translate(0px,0px);"
-			    data-40p="opacity: 1; transform:translate(0px,0px);"
-			    data-80p="opacity: 0; transform:translate(0px,-100%);"
+        	    data-10p="opacity: 1; transform:translate(0px,0px);"
+			    data-60p="opacity: 1; transform:translate(0px,0px);"
+			    data-100p="opacity: 0; transform:translate(0px,-100%);"
 			    data-anchor-target="#slide-1">
-			  <div class="intro">  
+			   <br/>
+			   <br/>
+			  <div class="intro">
 			    <div class="container">
-			      <div class="welcome-text">
-			        <h1>Skrollr.js</h1>
+			      <div class="col-lg-12" data-10p="opacity:1;">
+			        <h1 style="font-family: 'Lobster', cursive !important; color:black !important;">Skrollr.js</h1>
 			      </div>  
 			      <div class="row text-center">
-			        <div class="col-md-12">
-					    <h3>A simple site for <a href="https://github.com/Prinzhorn/skrollr" target="_blank">Skrollr.js</a>. 
+			        <div class="col-lg-12">
+					    <h3 style="color:black;">A site utilizing <a href="https://github.com/Prinzhorn/skrollr" target="_blank">Skrollr.js</a>. 
 					    All Images are courtesy of Pixden, Unsplash, and Google. 
 					    </h3>
 					</div>
@@ -96,35 +67,25 @@
              data-anchor-target="#slide-2">
             </div>
             <div class="container">
-            <!--
-            	<div class="row text-center">
-					<div class="col-md-12">
-						<div class="section-head wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-							<h1>Features</h1>
-							<p>You can show your app features</p>
-							<span class="underline"></span>
-						</div>
-					</div>  
-				</div>-->
 
             	  <div class="col-md-4" data-top-bottom="opacity:0; transform:translate(0px,0px);"
             	    data-210p="opacity:1;transform:translate(0px,0px);">
             	        <div class="services-info-text">
 				         <span class="fa-stack fa-3x">
 				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-				                <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+				                <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
 				         </span>
-				          <h2 class="services-heading">Project Management 1</h2>
-				          <p class="services-text">Every sale will be supervised by one of our highly experienced website developers.</p>
+				          <h2 class="services-heading">Desktop Experiences</h2>
+				          <p class="services-text">Skrollr lets you transform elements to create an <em>experience</em> for users.</p>
                         </div>
 
                          <div class="services-info-text">
 				         <span class="fa-stack fa-3x">
 				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-				                <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+				                <i class="fa fa-arrows-v fa-stack-1x fa-inverse"></i>
 				         </span>
-				          <h2 class="services-heading">Project Management 2</h2>
-				          <p class="services-text">Every sale will be supervised by one of our highly experienced website developers.</p>
+				          <h2 class="services-heading">Veritcal Scrolling</h2>
+				          <p class="services-text">Simply adjust your transform properties, and create depth perception when viewing.</p>
                         </div>
                       </div>  
 
@@ -140,18 +101,18 @@
             	     <div class="services-info-text" style="padding-top:15px;">
 				         <span class="fa-stack fa-3x">
 				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-				                <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+				                <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
 				         </span>
-				          <h2 class="services-heading">Project Management 1</h2>
-				          <p class="services-text">Every sale will be supervised by one of our highly experienced website developers.</p>
+				          <h2 class="services-heading">Mobile Ready</h2>
+				          <p class="services-text">By simply turning off skrollr through javascript, you can format your page to still look great on mobile.</p>
                         </div>
                          <div class="services-info-text">
 				         <span class="fa-stack fa-3x">
 				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-				                <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+				                <i class="fa fa-arrows-h fa-stack-1x fa-inverse"></i>
 				         </span>
-				          <h2 class="services-heading">Project Management 2</h2>
-				          <p class="services-text">Every sale will be supervised by one of our highly experienced website developers.</p>
+				          <h2 class="services-heading">Horizontal Scrolling</h2>
+				          <p class="services-text">The next slide is horizontal scrolling. Check it out!!</p>
                         </div>  
             	  </div>
 
@@ -165,10 +126,11 @@
 			    <div class="container">
 			      <div class="row">
 			        <div class="col-md-4">
-			        	<h1 style="float:left;padding:5px;">Some Type of Title</h1>
+			        	<h1 class="slide-3-title">Slide in Objects</h1>
+			        	<hr class="primary">
 			        	<br/>
-			        	<p>
-			        		What's amazing is, if young people understood how doing well in school makes the rest of their life so much interesting, they would be more motivated. It's so far away in time that they can't appreciate what it means for their whole life. They would be more motivated. It's so far away in time.
+			        	<p class="slide-3-text">
+			        		When using skrollr, elements don't become visible until you want them to. And when they are visible, create cool effects like tweaking the viewports, opacity, or your transform:translate() properties.
 			        	</p>
 			        </div>
 			        <div class="col-md-8">
@@ -178,28 +140,68 @@
             </div>
           </div>
         </div>
+
         <div id="slide-4" class="slide">
         	<div class="caption"
 			    data-430p="opacity: 0;"
-			    data-450p="opacity: 1;"
+			    data-500p="opacity: 1;"
 			    data-anchor-target="#slide-4">
 			    <div class="container">
 			      <div class="row">
-			        <div class="col-md-6">
+			        <div class="col-md-4 text-center">
 				    	<img src="../images/iphones_skew.png">
 				    </div> 
-			        <div class="col-md-6">
-				        <h1>Another Type of Title and Such</h1>
-				        	<p>
-				        		What's amazing is, if young people understood how doing well in school makes the rest of their life so much interesting, they would be more motivated. It's so far away in time that they can't appreciate what it means for their whole life. They would be more motivated. It's so far away in time.
-				        	</p>
+			        <div class="col-md-8 text-center">
+				        <h1>Dramatic Calls of Action</h1>
+				          <div><hr class="transition"></div>
+				        
+
+				        <div class="col-sm-4">
+				         <div class="service-list">
+				            <div class="service-list-col1">  <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-check-circle fa-stack-1x fa-inverse"></i>
+				         </span></i> </div>
+				            <span class="service-list-col2">
+				              <h3>Unique</h3>
+				              <p>Use Skrollr to be creative and give users a different viewing style.</p>
+				            </div>
+				         </div>  
+
+				        <div class="col-sm-4">
+				         <div class="service-list">
+				            <div class="service-list-col1">  <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-check-circle fa-stack-1x fa-inverse"></i>
+				         </span></i> </div>
+				            <span class="service-list-col2">
+				              <h3>Responsive</h3>
+				              <p>Skrollr lets you take care of mobile and desktop users.</p>
+				            </div>
+				         </div>
+
+				        <div class="col-sm-4">
+				         <div class="service-list">
+				            <div class="service-list-col1">  <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-check-circle fa-stack-1x fa-inverse"></i>
+				         </span></i> </div>
+				            <span class="service-list-col2">
+				              <h3>Flexible</h3>
+				              <p>Whether it's for a whole site, or just a couple elements, it's ready for anything.</p>
+				            </div>
+				         </div>
+				         <br/>
+				         <br/>
+				        <div class="col-lg-12 transition text-center">
+				        	 <div class="button-transition">
+							  <a class="btn-xl" href="https://github.com/jnewman12/skrollr" target="_blank">See The Code</a>
+							</div>
+				        </div> 
 				    </div> 
 				</div>      	
             </div>
         </div>
-        <!--<div id="slide-5" class="slide"></div>
-        <div id="slide-6" class="slide"></div>-->
-    </div>
 </div>
 
  
