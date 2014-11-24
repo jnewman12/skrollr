@@ -173,5 +173,5 @@ hr.primary {
 
 .btn-xl:hover {
 	background-color: #8B1C62;
-	color: white;
+	color: white !important;
 }
